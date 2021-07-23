@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+pre {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+.img {
+    height: 120px;
+    width: 100px;
+    border: 3px solid red;
+    border-radius: 50% 50%;
+    float: left;
+}
+
+.header-bio {
+    float: left;
+    padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: crimson;
+}
+
+.header-contact {
+    float: right;
+}
+
+.header-contact p {
+    padding: 5px;
+    color: crimson;
+}
+
+.header-contact p a {
+    text-decoration: none;
+    color: crimson;
+
+}
+
+.header-contact p a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+hr {
+    border: 2px dashed black;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+/*section-one start*/
+.one {}
+
+.content {}
+
+.left-div h2 {
+    margin: 10px 0px;
+}
+
+.right-div h2 {
+    margin: 10px 0px;
+}
+
+.left-div {
+    width: 48%;
+    float: left;
+    text-align: justify;
+}
+
+.right-div {
+    width: 48%;
+    float: right;
+    text-align: justify;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 15px 0px;
+    grid-gap: 5px 5px;
+
+}
+
+.grid-container > div {
+    border: 2px solid red;
+    text-align: center;
+}
+
+/*===================section-two- start===============*/
+.two .content .left-div {
+    width: 35%;
+}
+
+.two .content .rigth-div {
+    width: 65%;
+}
+
+meter {
+    height: 20px;
+    width: 250px;
+}
+
+.right-div .grid-container-2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px 0px
+}
+
+.right-div .grid-container-2 div {
+    border: 2px solid red;
+    background: skyblue;
+    padding: 5px
+}
+
+.three .content .left-div table {
+    text-align: left;
+    border: none;
+}
+
+.four ul {
+    list-style-type: disc;
+    margin-top: 15px;
+    margin-left: 20px
+}
+
+.five .content .left-div {
+    width: 25%;
+}
+
+.left-div .grid-container-2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px 0px
+}
+
+.left-div .grid-container-2 div {
+    border: 2px solid red;
+    background: skyblue;
+    padding: 5px
+}
+
+.five .content .right-div {
+    width: 70%;
+}
+
+.right-div .grid-container-3 {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-gap: 0px 15px
+}
+
+.right-div .grid-container-3 div {
+    border: 2px solid black;
+    background: skyblue;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.right-div .grid-container-3 .left,
+.right {
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+    background-position: center;
+
+}
+
+.right-div .grid-container-3 h4 {
+    color: blueviolet
+}
+
+.right-div .grid-container-3 .middle {
+    border: none;
+    background: aquamarine;
+}
+
+.five .grid-container-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+.five .grid-container-4 div {
+    background-color: gray;
+}
+
+.sin {
+    height: 60px;
+    width: 300px;
+    float: right;
+}
+
+footer p {
+    text-align: center;
+}
